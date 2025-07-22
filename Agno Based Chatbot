@@ -1,7 +1,7 @@
 !pip install agno google-generativeai
 
 import os
-os.environ["GEMINI_API_KEY"] = ""
+os.environ["GEMINI_API_KEY"] = "AIzaSyDZE4iGnE14FxYtnoZPMFNl8k_Lo45gn0Q"  
 
 from agno.agent import Agent
 from agno.models.google import Gemini
@@ -12,7 +12,7 @@ agent = Agent(
     model=model,
     description="A multi-turn assistant, enhanced by Agno's orchestration.",
     instructions=[
-        "Be concise.",
+        "You are a smart assistant, you provide user with recipes based on ingredients provided by the user. No more questions asked.",
         "Support explanations with examples.",
         "Use markdown formatting for clarity.",
         "Remember user context for coherent multi-turn conversations."
