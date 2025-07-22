@@ -1,4 +1,4 @@
-# 🤖 Gemini-Powered Multi-Turn Chatbot using Agno
+# 🤖 Gemini-Powered Recipe Creator Chatbot using Agno
 
 This is a simple multi-turn conversational assistant built using [Agno](https://pypi.org/project/agno/) and Google's [Gemini API](https://ai.google.dev/). It supports contextual conversation with markdown output, examples, and concise responses.
 
