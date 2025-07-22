@@ -49,7 +49,7 @@ agent = Agent(
     markdown=True
 )
 
-print("Type your questions. Type 'exit' to quit.")
+print("Ask about recipes you want to create. Type 'exit' to quit.")
 conversation_history = []
 while True:
     user_query = input("You: ")
