@@ -64,14 +64,30 @@ while True:
 ## 🧠 Example
 
 ```
-You: What is a lambda function in Python?
+You: mushroom, chicken, capsicum, garlic?
 Assistant:
-A **lambda function** is a small anonymous function defined using the `lambda` keyword.
+Here are a few recipe ideas using mushroom, chicken, capsicum, and garlic:
 
-Example:
-```python
-square = lambda x: x * x
-print(square(5))  # Output: 25
+**1. One-Pan Garlic Herb Chicken and Vegetables:**
+
+*   **Description:** A simple and flavorful dish where everything cooks together on one pan for easy cleanup.
+*   **Ingredients:** Chicken breasts (cut into bite-sized pieces), mushrooms (sliced), capsicum (sliced), garlic (minced), olive oil, herbs (rosemary, thyme, or oregano), salt, and pepper.
+*   **Instructions:** Toss chicken and vegetables with olive oil, herbs, salt, and pepper. Spread on a baking sheet and roast in a preheated oven at 400°F (200°C) for 20-25 minutes, or until chicken is cooked through.
+
+
+**2. Chicken and Mushroom Stir-fry with Capsicum:**
+
+*   **Description:** A quick and easy stir-fry perfect for a weeknight meal.
+*   **Ingredients:** Chicken breast (cut into strips), mushrooms (sliced), capsicum (sliced), garlic (minced), soy sauce, oyster sauce, cornflour (optional, for thickening), vegetable oil.
+*   **Instructions:** Stir-fry garlic in hot oil until fragrant. Add chicken and stir-fry until cooked. Add mushrooms and capsicum and stir-fry until tender-crisp.  Stir in soy sauce and oyster sauce.  If using, mix cornflour with a little water to make a slurry and add to thicken the sauce. Serve with rice.
+
+
+**3. Creamy Mushroom and Chicken Pasta:**
+
+*   **Description:** A rich and comforting pasta dish.  Capsicum can be added for extra flavour and colour.
+*   **Ingredients:** Chicken breast (cooked and shredded or diced), mushrooms (sliced), capsicum (diced), garlic (minced), pasta (your choice), cream, Parmesan cheese, butter, onion (optional), vegetable broth or chicken broth, salt, pepper.
+*   **Instructions:** Cook pasta according to package directions. While pasta cooks, sauté garlic and onion (if using) in butter until softened. Add mushrooms and capsicum and cook until tender. Stir in cream, broth, salt and pepper.  Add cooked chicken and Parmesan cheese. Toss with cooked pasta and serve.
+
 ```
 ```
 
