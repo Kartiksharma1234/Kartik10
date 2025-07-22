@@ -1,7 +1,7 @@
 !pip install agno google-generativeai
 
 import os
-os.environ["GEMINI_API_KEY"] = "AIzaSyDZE4iGnE14FxYtnoZPMFNl8k_Lo45gn0Q"  
+os.environ["GEMINI_API_KEY"] = ""  
 
 from agno.agent import Agent
 from agno.models.google import Gemini
