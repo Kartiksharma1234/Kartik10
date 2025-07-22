@@ -1,0 +1,32 @@
+!pip install agno google-generativeai
+
+import os
+os.environ["GEMINI_API_KEY"] = ""
+
+from agno.agent import Agent
+from agno.models.google import Gemini
+
+model = Gemini(id="gemini-1.5-flash", api_key=os.environ.get("GEMINI_API_KEY"))
+
+agent = Agent(
+    model=model,
+    description="A multi-turn assistant, enhanced by Agno's orchestration.",
+    instructions=[
+        "Be concise.",
+        "Support explanations with examples.",
+        "Use markdown formatting for clarity.",
+        "Remember user context for coherent multi-turn conversations."
+    ],
+    markdown=True
+)
+
+print("Type your questions. Type 'exit' to quit.")
+conversation_history = []
+while True:
+    user_query = input("You: ")
+    if user_query.lower() in ['exit', 'quit']:
+        print("Chat ended.")
+        break
+    response = agent.run(user_query)
+    print(f"Assistant:\n{response.content}")
+    conversation_history.append({"user": user_query, "assistant": response.content})
